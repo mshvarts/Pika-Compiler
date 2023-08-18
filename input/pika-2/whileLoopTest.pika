@@ -1,0 +1,16 @@
+exec {
+
+	var myVar := 5.
+	while (myVar < 10) {
+		myVar := myVar + 1.
+		print myVar; _n_.
+	}
+	
+	print "test".
+	
+	var myVar2 := 5.
+	while (myVar2 < 10) {
+		myVar2 := myVar2 + 1.
+		print myVar2; _n_.
+	}
+}

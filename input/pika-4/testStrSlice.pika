@@ -1,0 +1,16 @@
+exec {
+
+	var myStr := "hello world".
+	
+	var slice := myStr[0,2].
+	print slice.
+	
+	slice := myStr[2,5].
+	print slice; _n_.
+	
+	print myStr[6, 11]; _n_.
+	
+	#this should not work:
+	#myStr[2,5] := "test".
+	
+}

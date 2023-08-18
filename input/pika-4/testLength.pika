@@ -1,0 +1,12 @@
+exec {
+
+	var arr := [1,2,3,4].
+	var len := length arr.
+	print len; _n_.
+	
+	var str := "thisistest".
+	len := length str.
+	print len; _n_.
+	
+	print length "testme".
+}

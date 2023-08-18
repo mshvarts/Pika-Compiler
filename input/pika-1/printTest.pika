@@ -1,0 +1,9 @@
+exec {
+
+	
+	print ^a^; _n_.
+	print 252; _n_.
+	print 1.0; _n_.
+	print "this is a string"; _n_.
+	print _false_.
+}

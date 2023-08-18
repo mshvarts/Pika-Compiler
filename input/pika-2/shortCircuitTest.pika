@@ -1,0 +1,42 @@
+exec {
+	
+	#print "Short Circuit AND(false):"; _n_.
+	if(5<3 && 1<6){
+		print _true_; _n_.
+	}
+	else {
+		print _false_; _n_.
+	}
+	
+	#print "Full eval AND(true):"; _n_.
+	if(5>3 && 1<6){
+		print _true_; _n_.
+	}
+	else {
+		print _false_; _n_.
+	}
+	
+	#print "Full eval OR(true):"; _n_.
+	if(5<3 || 1<5){
+		print _true_; _n_.
+	}
+	else {
+		print _false_; _n_.
+	}
+	
+	#print "Full eval OR(false):"; _n_.
+	if(5<3 || 1<0){
+		print _true_; _n_.
+	}
+	else {
+		print _false_; _n_.
+	}
+	
+	print "Short Circuit OR(true):"; _n_.
+	if(5>3 || 1<6){
+		print _true_; _n_.
+	}
+	else {
+		print _false_; _n_.
+	}
+}

@@ -1,0 +1,39 @@
+exec {
+	# Test string reverse
+	var r := reverse "abcde".
+	print r;_n_.
+	
+	var a := "hello".
+	var b := reverse a.
+	print a; b, _n_.
+	
+	# Test array reverse
+	var c := [1, 2, 4, 8].
+	var d := reverse c.
+	print c; d, _n_.
+	
+	var e := [^a^, ^c^, ^z^].
+	var f := reverse e.
+	print e; f, _n_.
+	
+	var g := [_true_, _false_].
+	var h := reverse g.
+	print g; h, _n_.
+	
+	var i := [(1//2), (3//5)].
+	var j := reverse i.
+	print i; j, _n_.
+	
+	var k := ["hehe", "cx"].
+	var l := reverse k.
+	print k; l, _n_.
+	
+	var m := [1.1, 2.7, 4.2, 8.92].
+	var n := reverse m.
+	print m; n, _n_.
+	
+	var z := [[1,2,4], [5,7,9]].
+	var w := reverse z.
+	print z; w, _n_.
+	
+}

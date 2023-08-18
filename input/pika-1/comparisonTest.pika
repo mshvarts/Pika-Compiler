@@ -1,0 +1,15 @@
+exec {
+	var num := 25.
+	var num2 := 49.
+	var num3 := 25.
+	var str1 := "blahblahbah".
+	var str2 := str1.
+	
+	print "greater (false): "; num > num2; _n_.
+	print "greater equal (false): "; num >= num2; _n_.
+	print "equals (true): "; num == num3; _n_.
+	print "not equal (true): "; num != num2; _n_.
+	print  "less equal (true): "; num <= num3; _n_.
+	print "less than (false): "; num < num3; _n_.
+	print "equal strings (true): "; str1 == str2.
+}

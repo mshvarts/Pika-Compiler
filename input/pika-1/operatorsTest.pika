@@ -1,0 +1,11 @@
+exec {
+	const added := 5 + 2.
+	const subtracted := 5 - 2.
+	const multiplied := 5 * 2.
+	const divided := 5 / 2.
+	
+	print added; _n_.
+	print subtracted; _n_.
+	print multiplied; _n_.
+	print divided.
+}

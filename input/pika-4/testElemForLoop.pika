@@ -1,0 +1,54 @@
+exec {
+
+	for elem c of "rabbit" {
+		print c;.
+	}
+	print _n_.
+	
+	for elem i of [1,2,3,4] {
+		print i;.
+	}
+	print _n_.
+	
+	for elem c of [^x^,^y^,^z^] {
+		print c;.
+	}
+	print _n_.
+	
+	for elem b of [_true_, _false_] {
+		print b;.
+	}
+	print _n_.
+	
+	var d := [4//6, 1//2].
+	for elem e of d {
+		print e,;.
+	}
+	print _n_.
+	
+	for elem f of [1.52, 95.2223] {
+		print f;.
+	}
+	print _n_.
+	
+	var g := [[1,2],[3,4],[5,6]].
+	
+	for elem e of g {
+		print e;.
+	}
+	print _n_.
+	
+	for elem e of g {
+		print e;.
+		break.
+	}
+	print _n_.
+	
+	for elem e of g {
+		print e;.
+		continue.
+	}
+	print _n_.
+	
+
+}

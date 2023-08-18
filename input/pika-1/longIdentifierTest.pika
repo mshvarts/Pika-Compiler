@@ -1,0 +1,5 @@
+exec {
+	var this_is_a_veeeeeery_long_variable_name := 55.
+	
+	print this_is_a_veeeeeery_long_variable_name.
+}

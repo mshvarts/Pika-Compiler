@@ -1,0 +1,19 @@
+var globalVar := 7.
+
+exec {
+	
+	#static var count := 5.
+	#var normalVar := 1.
+	
+	#var lambda := <> -> int { return count. }.
+	#print lambda(); _n_.
+	
+	#count := 8.
+	#print count.
+	
+	while(_true_) {
+		static var count := 0.
+		count := count + 1.
+		print count, _n_.
+	}
+}

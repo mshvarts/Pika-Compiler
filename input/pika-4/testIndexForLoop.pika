@@ -1,0 +1,55 @@
+exec {
+
+	for index i of "rabbit" {
+		print i,;.
+	}
+	print _n_.
+	
+	var a := [1, 2, 3, 4, 5].
+	for index i of a {
+		print a[i],;.
+	}
+	print _n_.
+	
+	var b := [^c^,^b^,^e^].
+	for index i of b {
+		print b[i],;.
+	}
+	print _n_.
+	
+	var c := [_true_, _false_].
+	for index i of c {
+		print c[i],;.
+	}
+	print _n_.
+	
+	var d := [4//6, 1//2].
+	for index i of d {
+		print d[i],;.
+	}
+	print _n_.
+	
+	var e := [1.52, 6.12].
+	for index i of e {
+		print e[i],;.
+	}
+	print _n_.
+	
+	var f := [[1,2],[3,4]].
+	for index i of f {
+		print f[i],;.
+	}
+	
+	var f := [[1,2],[3,4]].
+	for index i of f {
+		print f[i],;.
+		break.
+	}
+	
+	var f := [[1,2],[3,4]].
+	for index i of f {
+		print f[i],;.
+		continue.
+	}
+
+}

@@ -1,0 +1,9 @@
+exec {
+
+	var testPop2 := [1, 2, 3].
+	testPop2[2] := 55.
+	testPop2[0] := 0.
+	print testPop2; _n_.
+	testPop2[1] := 1.
+	print testPop2; _n_.
+}

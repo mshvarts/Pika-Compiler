@@ -1,0 +1,19 @@
+func testGlobal<int y> -> int {
+	return x + y.
+}
+
+const x := 2 + 4.
+const y := 10.5.
+
+exec {
+
+	var lambda := <float z>->int { var x := 4. return [z|int] + x. }.
+	print x; _n_.
+	print y; _n_.
+	#print lambda(2.2).
+	
+	print testGlobal(8); _n_.
+	var globalStore := testGlobal(10).
+	print globalStore.
+	
+}

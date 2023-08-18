@@ -1,0 +1,12 @@
+exec {
+
+	var str := "hello".
+	var str2 := " world".
+	
+	var result := str + str2.
+	print result; _n_.
+	
+	str := " lol".
+	
+	print "pika " + "programmer" + str.
+}

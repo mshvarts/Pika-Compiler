@@ -1,0 +1,7 @@
+exec {
+	const character := ^c^.
+	var number := 124.
+	
+	number := 4.
+	character := ^a^.
+}

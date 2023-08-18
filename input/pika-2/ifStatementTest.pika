@@ -1,0 +1,9 @@
+exec {
+
+	if(2 < 3) {
+		print _true_.
+	}
+	else {
+		print _false_.
+	}
+}

@@ -1,0 +1,13 @@
+exec {
+	var character := ^c^.
+	var number := 124.
+	var floating := 4.2005.
+	var my_string := "this is a test string".
+	var boolean := _true_.
+	
+	print character; _n_.
+	print number; _n_.
+	print floating; _n_.
+	print my_string; _n_.
+	print boolean.
+}

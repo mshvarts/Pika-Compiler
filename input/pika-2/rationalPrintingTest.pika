@@ -1,0 +1,12 @@
+
+exec {
+	var rat1 := 5 // 2.
+	#var rat2 := rat1 /// 2.
+	#var rat3 := (5//1) /// 2.
+	#var rat4 := 5.0 //// 2.
+	
+	print rat1; _n_.
+	#print rat2; _n_.
+	#print rat3; _n_.
+	#print rat4; _n_.
+}

@@ -1,0 +1,12 @@
+exec {
+	const avogadro := 6.4.
+	const pi := 3.14159.
+	const smallNumber := 12.5E-6.
+	const largeNumber := 1.951E24.
+	
+	print avogadro; _n_.
+	print pi + avogadro; _n_.
+	print smallNumber; _n_.
+	print largeNumber; _n_.
+	
+}

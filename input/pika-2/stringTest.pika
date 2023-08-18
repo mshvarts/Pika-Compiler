@@ -1,0 +1,10 @@
+exec {
+	
+	print "test this again"; _n_.
+	var test1 := "test123456783253259".
+	var test2 := "whatthehecklol".
+	print test1; _n_.
+	print test2; _n_.
+	
+	
+}

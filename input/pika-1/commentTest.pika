@@ -1,0 +1,9 @@
+exec {
+	print "blah blah blah"; _n_.
+	# this is a comment #
+	print "2 + 4", ^=^, 2 + 4, _n_.
+	print "hello". #this is another comment
+	
+	# comment terminated by newline 
+	print "blahh".
+}

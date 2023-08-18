@@ -1,0 +1,70 @@
+func sum <int a, int b> -> int {
+	return a + b.
+}
+
+
+exec {
+
+	const B := [1, 4, 9, 13, 18, 27].
+	print B, _n_.
+
+	print B fold sum, _n_.
+
+
+	# Test normal
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := <int x, int y>->int { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold max.
+	#print maxity.
+
+	# Test normal with base value
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := <int x, int y>->int { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold [12] max.
+	#print maxity.
+	
+	# Test normal with base value 2
+	var asciiStringFor := <int x> -> string { 
+		if(x==1) { 	return "1". } else { 
+			if(x==3) { 	return "3". } else { if(x==5) { return "5".}
+				else { if(9==x) { 	return "9".} else {	return "2".}
+		} } }
+	}.
+	#var asciiStringFor := <int x> -> string { 
+	#	return [x | string].
+	#}.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var catNumber := <string s, int x>->string { return s + ^ ^ + asciiStringFor(x). }.
+	#var numList := numbers fold ["list:"] catNumber.
+	#print numList.
+		
+	# Test errors
+	#var numbers := 5.
+	#var max := <int x, int y>->int { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold max.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := 12.623.
+	#var maxity := numbers fold max.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var double := <int x>->int { return x*2.}.
+	#var maxity := numbers fold double.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := <char x, char y>->int { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold max.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := <int x, int y>->char { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold max.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := <string x, int y>->int { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold [12] max.
+	
+	#var numbers := [1, 5, 3, 9, 2].
+	#var max := <int x, int y>->float { if(x>y) {return x.} else {return y.}}.
+	#var maxity := numbers fold [12] max.
+}

@@ -1,0 +1,23 @@
+exec {
+
+	#var myArr := [1, 2, 3, 4].
+	#myArr[2] := 2.
+	#print myArr[2]; _n_.
+	
+	#var str := "hello world".
+	#str[2] := 5.
+	#print str.
+	
+	var str := "hello world".
+	var chr := str[0].
+	print chr;.
+	
+	chr := str[1].
+	print chr;.
+	
+	print str[2];.
+	print str[3];.
+	print str[4];.
+	
+	
+}

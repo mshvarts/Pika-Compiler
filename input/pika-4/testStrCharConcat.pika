@@ -1,0 +1,11 @@
+exec {
+
+	var str := "hello worl".
+	var chr := ^d^.
+	
+	var result := str + chr.
+	
+	print result; _n_.
+	
+	print "goodbye" + ^!^.
+}

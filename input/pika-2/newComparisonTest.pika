@@ -1,0 +1,19 @@
+
+exec {
+	var rat1 := (6//2). # 3
+	var rat2 := (5//2). # 2.5
+	
+	var char1 := "test".
+	var char2 := "test".
+	
+	if(rat1 < 0) {
+		print "true"; _n_.
+	}
+	else {
+		print "false"; _n_.
+	}
+	
+	print rat1; _n_.
+	print rat2; _n_.
+
+}

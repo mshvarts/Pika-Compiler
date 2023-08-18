@@ -1,0 +1,14 @@
+func weight<int numHydrogen, int numOxygen> -> float {
+	const g := 6.02E23 .
+	const hy := 1.008 .
+	const ox := 15.999 .
+	const molecularWeight := hy * [numHydrogen |float] + ox * [numOxygen |float].
+	return molecularWeight * g .
+}
+
+
+exec {
+	
+	print weight(5,10).
+	
+}

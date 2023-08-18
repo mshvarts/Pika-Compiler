@@ -1,0 +1,37 @@
+exec {
+
+	var rat1 := 1//2.
+	var rat2 := 3//4.
+	var rat3 := 5//8.
+	
+	var int1 := 1.
+	var int2 := 2.
+	var int3 := 3.
+	
+	var str1 := "ab".
+	var str2 := "bc".
+	var str3 := "cd".
+	var str4 := "de".
+
+	#var testPop1 := [^c^, ^a^, ^z^].
+	#var testPop2 := [11, 2124, 3, 1244, 5].
+	#var testPop3 := [_true_, _false_].
+	#var testPop4 := [rat1, rat2, rat3].
+	#var testPop4 := [int1, int2, int3].
+	
+	var testPop5 := [str1, str2].
+	var testPop6 := [str3, str4].
+	var testPop7 := [testPop5, testPop6].
+	
+	#print testPop1; _n_.
+	#print testPop2; _n_.
+	#print [6, 7, 8]; _n_.
+	#testPop2[3] := 19.
+	#print testPop2; _n_.
+	#print testPop3; _n_.
+	#print testPop4; _n_.
+	#print testPop5; _n_.
+	
+	print testPop7; _n_.
+
+}

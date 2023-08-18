@@ -1,0 +1,30 @@
+#func myFunc<> -> [int] {
+#	var intArr := [1,2,3].
+#	return intArr.
+#}
+	
+#func myFunc<> -> rat {
+#	var b := 1//2.
+#	return b.
+#}	
+	
+func myFunc<> -> int {
+	var ratRet := 5.
+	if(3 > 2) {
+		return 4.
+		print "yesh";_n_.
+	}
+	else {
+		print "noah";_n_.
+		return 7.
+	}
+}
+
+exec {
+	#const test := alloc [int](5).
+	#call myFunc().
+	var output := myFunc().
+	print output;_n_.
+	print "main"; _n_.
+	
+}

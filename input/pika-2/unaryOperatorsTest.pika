@@ -1,0 +1,15 @@
+exec {
+
+	if(!(1>2)){
+		print "true"; _n_.
+	}
+	
+	var myArray := [^c^, ^a^].
+	var len := length myArray.
+	print len; _n_.
+
+	var A := [1, 2, 3].
+	print A; _n_.
+	var B := clone A.
+	print B.
+}

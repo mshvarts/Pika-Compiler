@@ -1,0 +1,17 @@
+exec {
+	var expr1 := 22 / 33.
+	var expr2 := (1 + 6) / 2 + (6*3).
+	var expr3 := [ 123 | char ].
+	var expr4 := [ 7 | bool ].
+	var expr5 := [ ^z^ | int ].
+	var expr6 := [ 123 | float ].
+	var expr7 := [ 3 - 3 | bool ].
+	
+	print expr1; _n_.
+	print expr2; _n_.
+	print expr3; _n_.
+	print expr4; _n_.
+	print expr5; _n_.
+	print expr6 + 2.5; _n_.
+	print expr7; _n_.
+}

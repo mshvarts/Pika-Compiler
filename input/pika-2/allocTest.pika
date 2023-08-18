@@ -1,0 +1,16 @@
+exec { 
+
+	var testAlloc := alloc [int](4).
+	testAlloc[0] := 1.
+	testAlloc[1] := 2.
+	#testAlloc[2] := 3.
+	testAlloc[3] := 4.
+	
+	#var testAlloc := alloc [[int]](3).
+	#testAlloc[0] := [1,2,3].
+	#testAlloc[1] := [4,5,6].
+	#testAlloc[2] := [7,8,9].
+	
+	print testAlloc; _n_.
+	
+}

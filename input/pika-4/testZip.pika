@@ -1,0 +1,34 @@
+exec {
+
+	# normal case 1
+	#var nn := [^a^,^b^,^c^].
+	#var nn2 := [^da^,^db^,^cd^].
+	#var ff := [1, 5, 3].
+	#var ff := [2.1, -3.3, 4.2, 5.0, 17.79].
+	#var charit := <char n1, int n2>->int { return n2. }.
+	#var numList := zip nn, ff, charit.
+	#print numList.
+	
+	# normal case 2
+	var nn := [1, 5, 3, 9, 2].
+	var ff := [2.1, -3.3, 4.2, 5.0, 17.79].
+	var ratIt := <int n, float f>->rat { return n // [f|int]. }.
+	var numList := zip nn, ff, ratIt.
+	print numList.
+	
+	#var ratIt := <int n, float f>->rat { return n // [f|int]. }.
+	#var ratRes := ratIt(5, 4.2).
+	#print ratRes.
+	
+	#var intIt := <int n, int f>->int { return n+f. }.
+	#var intRes := intIt(5, 2).
+	#print intRes.
+	
+	# normal case 3
+	#var n1 := [1, 3, 5, 7, 9, 11].
+	#var n2 := [1, 2, 3, 5, 7, 11].
+	#const makePair := <int x, int y> -> [int] { return [x, y]. }.
+	#var pairList := zip n1, n2, makePair.
+	#print pairList.
+	
+}

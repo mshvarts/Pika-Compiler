@@ -1,0 +1,8 @@
+exec {
+	var myVar1 := 125.
+	print myVar1; _n_.
+	
+	myVar1 := 777.
+	
+	print myVar1; _n_.
+}

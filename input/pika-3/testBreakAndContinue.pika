@@ -1,0 +1,21 @@
+exec {
+
+	var x := 0.
+	var i := 0.
+	
+	while(x < 3) {
+		
+		i := 0.
+		while(i < 2) {
+			i := i + 1.
+			print "I: "; i; _n_.
+		}
+		
+		break.
+		x := x + 1.
+		print "X: "; x; _n_; _n_.	
+	}
+	
+	print "final x: "; x; _n_.	
+	print "final i: "; i; _n_.	
+}
